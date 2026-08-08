@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Lexi Hunter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Archivo+Black&family=Fraunces:opsz,wght@9..144,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="header-inner">
-      <a href="index.html" class="site-name">Lexi Hunter</a>
+      <a href="index.html" class="site-name"><img src="images/logo.webp" alt="Lexi Hunter"></a>
       <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -31,23 +34,9 @@
       <p>Let's work together! Resume available upon request.</p>
       <p class="muted">Located in Denver, Colorado</p>
       <p>Email for phone number<br><a href="mailto:contact.lexihunter@gmail.com">contact.lexihunter@gmail.com</a></p>
-      <p><a href="https://www.instagram.com/ilexihunter" target="_blank" rel="noopener">Instagram</a> &middot; <a href="https://www.linkedin.com/in/lexi-hunter-37b8a9158/" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p><a href="https://www.instagram.com/ilexihunter" target="_blank" rel="noopener" class="link">Instagram</a> &middot; <a href="https://www.linkedin.com/in/lexi-hunter-37b8a9158/" target="_blank" rel="noopener" class="link">LinkedIn</a></p>
 
-      <div class="placeholder-note">This form doesn't send email on its own &mdash; static GitHub Pages sites can't process form submissions server-side. Hook it up to a free service like Formspree (formspree.io) by putting your form endpoint in the action attribute below, or just remove the form and rely on the info above.</div>
-
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-
-        <br><br>
-        <button class="button" type="submit">Send</button>
-      </form>
+      <a href="mailto:contact.lexihunter@gmail.com" class="button">Email me</a>
     </div>
   </main>
 
